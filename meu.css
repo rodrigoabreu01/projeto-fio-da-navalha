@@ -3,15 +3,30 @@
     margin: 0;
 }
 body{
-    background: black;
+    background-color: black;
 }
-.menu{   
-   background-color: black;
+.menu{  
+   justify-content: center;
+   margin-left: 60px;
+}
+.container-menu{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111d11;
+    border-bottom: 8px solid #FFD700;
+}
+.container-menu img{
+    height: 90px;
+}
+.icons{
+    margin-left: 50px;
+}
+.icons i{
+    margin-left: 10px ;
 }
 .lista{
-    justify-content: center;
-    display: flex;
-    background-color: rgba(57, 69, 77, 0.705);
+    margin: 5px;
 }
 .lista li{
     list-style: none;
@@ -22,14 +37,15 @@ body{
 }
 .lista li a{
     text-decoration:none;
-    color: white;
+    color: #FFD700;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .lista li a:hover{
+    color: #ffffff;
 }
 .lista li:hover{
-background-color: rgb(255, 251, 0);
+background-color: #272b27;
 }
 .siga-me {
     margin-top: 40px;
